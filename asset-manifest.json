@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/beans-n-cream/static/css/main.e1576d77.chunk.css",
+    "main.js": "/beans-n-cream/static/js/main.7e90688a.chunk.js",
+    "main.js.map": "/beans-n-cream/static/js/main.7e90688a.chunk.js.map",
+    "runtime-main.js": "/beans-n-cream/static/js/runtime-main.f2a1546c.js",
+    "runtime-main.js.map": "/beans-n-cream/static/js/runtime-main.f2a1546c.js.map",
+    "static/js/2.dbd1018f.chunk.js": "/beans-n-cream/static/js/2.dbd1018f.chunk.js",
+    "static/js/2.dbd1018f.chunk.js.map": "/beans-n-cream/static/js/2.dbd1018f.chunk.js.map",
+    "index.html": "/beans-n-cream/index.html",
+    "static/css/main.e1576d77.chunk.css.map": "/beans-n-cream/static/css/main.e1576d77.chunk.css.map",
+    "static/js/2.dbd1018f.chunk.js.LICENSE.txt": "/beans-n-cream/static/js/2.dbd1018f.chunk.js.LICENSE.txt",
+    "static/media/coffee.dac125ab.png": "/beans-n-cream/static/media/coffee.dac125ab.png",
+    "static/media/products.644d1c87.jpg": "/beans-n-cream/static/media/products.644d1c87.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f2a1546c.js",
+    "static/js/2.dbd1018f.chunk.js",
+    "static/css/main.e1576d77.chunk.css",
+    "static/js/main.7e90688a.chunk.js"
+  ]
+}

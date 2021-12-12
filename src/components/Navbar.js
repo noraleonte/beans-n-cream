@@ -1,19 +1,28 @@
 import { HiOutlineShoppingCart, HiMenu } from 'react-icons/hi';
+import paths from '../constants/paths.js';
 
-import '../styles/test.css';
-const Navbar = () => {
+import { Link } from 'react-router-dom';
+const Navbar = (props) => {
   return (
-    <nav className='navbar sticky-top text-light'>
-      <div className='logo navbar-brand'>Beans 'n Cream</div>
+    <nav className='navbar mx-5'>
+      <Link to={paths.HOME}>
+        <div className='logo navbar-brand text-light'>Beans 'n Cream</div>
+      </Link>
       <div>
-        <ul className='nav justify-content-end text-primary fw-bold'>
-          <li className='nav-item about-us ms-2'>About Us</li>
+        <ul className={`nav justify-content-end ${props.navText} fw-bold`}>
+          <Link to={paths.ABOUT}>
+            <li className={`nav-item about-us ms-2 ${props.navText}`}>
+              About Us
+            </li>
+          </Link>
+
           <li className='nav-item cart ms-2'>
-            Cart <HiOutlineShoppingCart />
+            Cart <HiOutlineShoppingCart />{' '}
+            <span className='badge bg-danger'>{props.counter}</span>
           </li>
-          <li className='nav-item menu ms-2'>
+          {/* <li className='nav-item menu ms-2'>
             Menu <HiMenu />
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>

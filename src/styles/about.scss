@@ -1,0 +1,11 @@
+@import './variables';
+.hero-img {
+  width: calc(100vw - 12rem);
+  height: 30vh;
+  background-size: cover;
+  border-radius: 0.75rem !important;
+}
+.about-subtitle {
+  font-family: 'Anton';
+  font-size: 1.25rem;
+}

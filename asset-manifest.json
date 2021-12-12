@@ -1,22 +1,39 @@
 {
   "files": {
-    "main.css": "/beans-n-cream/static/css/main.e1576d77.chunk.css",
-    "main.js": "/beans-n-cream/static/js/main.7e90688a.chunk.js",
-    "main.js.map": "/beans-n-cream/static/js/main.7e90688a.chunk.js.map",
+    "main.css": "/beans-n-cream/static/css/main.4162f36f.chunk.css",
+    "main.js": "/beans-n-cream/static/js/main.cac68d07.chunk.js",
+    "main.js.map": "/beans-n-cream/static/js/main.cac68d07.chunk.js.map",
     "runtime-main.js": "/beans-n-cream/static/js/runtime-main.f2a1546c.js",
     "runtime-main.js.map": "/beans-n-cream/static/js/runtime-main.f2a1546c.js.map",
-    "static/js/2.dbd1018f.chunk.js": "/beans-n-cream/static/js/2.dbd1018f.chunk.js",
-    "static/js/2.dbd1018f.chunk.js.map": "/beans-n-cream/static/js/2.dbd1018f.chunk.js.map",
+    "static/js/2.a1f03455.chunk.js": "/beans-n-cream/static/js/2.a1f03455.chunk.js",
+    "static/js/2.a1f03455.chunk.js.map": "/beans-n-cream/static/js/2.a1f03455.chunk.js.map",
     "index.html": "/beans-n-cream/index.html",
-    "static/css/main.e1576d77.chunk.css.map": "/beans-n-cream/static/css/main.e1576d77.chunk.css.map",
-    "static/js/2.dbd1018f.chunk.js.LICENSE.txt": "/beans-n-cream/static/js/2.dbd1018f.chunk.js.LICENSE.txt",
+    "static/css/main.4162f36f.chunk.css.map": "/beans-n-cream/static/css/main.4162f36f.chunk.css.map",
+    "static/js/2.a1f03455.chunk.js.LICENSE.txt": "/beans-n-cream/static/js/2.a1f03455.chunk.js.LICENSE.txt",
+    "static/media/about-us-1.f72f476b.jpg": "/beans-n-cream/static/media/about-us-1.f72f476b.jpg",
+    "static/media/choc1.2a7422ac.jpg": "/beans-n-cream/static/media/choc1.2a7422ac.jpg",
+    "static/media/choc2.91896598.jpg": "/beans-n-cream/static/media/choc2.91896598.jpg",
     "static/media/coffee.dac125ab.png": "/beans-n-cream/static/media/coffee.dac125ab.png",
-    "static/media/products.644d1c87.jpg": "/beans-n-cream/static/media/products.644d1c87.jpg"
+    "static/media/cookie.4b5358f3.jpg": "/beans-n-cream/static/media/cookie.4b5358f3.jpg",
+    "static/media/ginger.78d69325.jpg": "/beans-n-cream/static/media/ginger.78d69325.jpg",
+    "static/media/heroImage.9cdabdf9.jpg": "/beans-n-cream/static/media/heroImage.9cdabdf9.jpg",
+    "static/media/prod1.c2ff412f.jpg": "/beans-n-cream/static/media/prod1.c2ff412f.jpg",
+    "static/media/prod2.4b169fe3.jpg": "/beans-n-cream/static/media/prod2.4b169fe3.jpg",
+    "static/media/prod3.69ba25a9.jpg": "/beans-n-cream/static/media/prod3.69ba25a9.jpg",
+    "static/media/prod4.1c61f68e.jpg": "/beans-n-cream/static/media/prod4.1c61f68e.jpg",
+    "static/media/prod5.a04071cc.jpg": "/beans-n-cream/static/media/prod5.a04071cc.jpg",
+    "static/media/products.644d1c87.jpg": "/beans-n-cream/static/media/products.644d1c87.jpg",
+    "static/media/shake1.aa5cabc0.jpg": "/beans-n-cream/static/media/shake1.aa5cabc0.jpg",
+    "static/media/shake2.04bf13d1.jpg": "/beans-n-cream/static/media/shake2.04bf13d1.jpg",
+    "static/media/tea1.3a4b5bf2.jpg": "/beans-n-cream/static/media/tea1.3a4b5bf2.jpg",
+    "static/media/tea2.1613c97a.jpg": "/beans-n-cream/static/media/tea2.1613c97a.jpg",
+    "static/media/tea3.5ac135a4.jpg": "/beans-n-cream/static/media/tea3.5ac135a4.jpg",
+    "static/media/tea4.567e34e7.jpg": "/beans-n-cream/static/media/tea4.567e34e7.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.f2a1546c.js",
-    "static/js/2.dbd1018f.chunk.js",
-    "static/css/main.e1576d77.chunk.css",
-    "static/js/main.7e90688a.chunk.js"
+    "static/js/2.a1f03455.chunk.js",
+    "static/css/main.4162f36f.chunk.css",
+    "static/js/main.cac68d07.chunk.js"
   ]
 }

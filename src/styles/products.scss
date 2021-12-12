@@ -1,0 +1,56 @@
+@import './variables';
+.product-list :hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.caffeine {
+  font-family: 'Anton';
+}
+.prod-img {
+  width: 40vw;
+  height: calc(85vh - 3rem - 72px);
+  min-width: 400px;
+  max-height: 60vh;
+  background-size: cover;
+  border-radius: 0.75rem !important;
+}
+.yellow-square2 {
+  width: 70vw;
+  height: 85vh;
+  border-radius: 0 0 0 6rem;
+  background-color: $yellow;
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.product {
+  height: calc(85vh - 3rem - 72px);
+}
+.prod-details {
+  max-height: 60vh;
+}
+@media only screen and (max-width: 600px) {
+  .yellow-square2 {
+    width: 0;
+    height: 0;
+  }
+  .prod-details {
+    margin: 0 !important;
+    color: $beige !important;
+    word-wrap: break-word;
+  }
+  .product {
+    margin: 0 !important;
+    height: fit-content;
+    flex-wrap: wrap;
+  }
+  .prod-img {
+    width: 100%;
+    min-width: 100px;
+  }
+
+  .caffeine {
+    color: $beige !important;
+  }
+}

@@ -12,7 +12,7 @@ const Product = (props) => {
   const content = {
     title: 'About Us',
     subtitle: 'Our secret is pouring love into each cup we serve',
-    text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus morbi eget malesuada cum quis amet, cras aliquam. Egestas scelerisque dignissim ac duis vel nulla. Purus scelerisque sed amet hendrerit. Tristique placerat pellentesque donec curabitur ut lacus.',
+    text: 'We all share the love for a good cup of coffee and a good story. At Beans n Cream you can find both. Be a part of our story. Visit us today!',
   };
   if (product) {
     props.handleChangeNavText('text-primary');

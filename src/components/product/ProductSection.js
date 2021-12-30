@@ -6,7 +6,15 @@ const ProductSection = (props) => {
     <div className='mx-5 d-flex flex-md-no-wrap product my-4'>
       <div
         className='prod-img'
-        style={{ backgroundImage: `url(${product.img})` }}></div>
+        // style={{ backgroundImage: `url(${product.img})` }}
+      >
+        <img
+          src={product.src}
+          srcSet={product.srcset}
+          className='img-fluid rounded'
+          alt='Products'
+        />
+      </div>
       <div className='yellow-square2'></div>
 
       <div className='prod-details text-primary ms-4 d-flex flex-column justify-content-between'>

@@ -1,9 +1,11 @@
+import { lazy, Suspense } from 'react';
 import Hero from './home/Hero';
 import Products from './home/Products';
-import ArticleCard from './cards/ArticleCard';
+// import ArticleCard from './cards/ArticleCard';
 
 import paths from '../constants/paths.js';
-
+const ArticleCard = lazy(() => import('./cards/ArticleCard'));
+const renderLoader = () => <p>Loading</p>;
 const Home = (props) => {
   props.handleChangeNavText('text-primary');
 
@@ -27,12 +29,14 @@ const Home = (props) => {
       <div className='d-flex justify-content-center'>
         <hr className='separator text-secondary  mt-1' />
       </div>
-      <ArticleCard
-        button={button}
-        content={content}
-        background={'bg-secondary'}
-        textShadow={'title-shadow-light'}
-      />
+      <Suspense fallback={renderLoader()}>
+        <ArticleCard
+          button={button}
+          content={content}
+          background={'bg-secondary'}
+          textShadow={'title-shadow-light'}
+        />
+      </Suspense>
     </div>
   );
 };

@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/beans-n-cream/static/css/main.4162f36f.chunk.css",
-    "main.js": "/beans-n-cream/static/js/main.d9dd9caf.chunk.js",
-    "main.js.map": "/beans-n-cream/static/js/main.d9dd9caf.chunk.js.map",
+    "main.js": "/beans-n-cream/static/js/main.5346b6e5.chunk.js",
+    "main.js.map": "/beans-n-cream/static/js/main.5346b6e5.chunk.js.map",
     "runtime-main.js": "/beans-n-cream/static/js/runtime-main.f2a1546c.js",
     "runtime-main.js.map": "/beans-n-cream/static/js/runtime-main.f2a1546c.js.map",
     "static/js/2.0532186d.chunk.js": "/beans-n-cream/static/js/2.0532186d.chunk.js",
@@ -100,6 +100,6 @@
     "static/js/runtime-main.f2a1546c.js",
     "static/js/2.0532186d.chunk.js",
     "static/css/main.4162f36f.chunk.css",
-    "static/js/main.d9dd9caf.chunk.js"
+    "static/js/main.5346b6e5.chunk.js"
   ]
 }

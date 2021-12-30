@@ -10,7 +10,13 @@ const ProductCard = (props) => {
       style={{ maxWidth: 550 + 'px' }}>
       <div className='row g-0' style={{ height: 100 + '%' }}>
         <div className='col-md-5'>
-          <img src={product.img} className='img-fluid rounded' alt='Products' />
+          <img
+            src={product.src}
+            srcSet={product.srcset}
+            className='img-fluid rounded'
+            alt='Products'
+            loading='lazy'
+          />
         </div>
         <div className='col-md-7'>
           <div className='card-body'>

@@ -1,5 +1,6 @@
 @import './variables';
-.product-list :hover {
+
+.product-list:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -30,27 +31,50 @@
 .prod-details {
   max-height: 60vh;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
   .yellow-square2 {
     width: 0;
     height: 0;
   }
   .prod-details {
-    margin: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
     color: $beige !important;
     word-wrap: break-word;
+    height: calc(70vh - 116px);
+    padding-top: calc(40vh - 184px);
+    .price-add {
+      order: 1;
+    }
+    .prod-det {
+      order: 2;
+    }
   }
   .product {
-    margin: 0 !important;
+    margin: 0 0 60px 0 !important;
     height: fit-content;
     flex-wrap: wrap;
   }
   .prod-img {
-    width: 100%;
-    min-width: 100px;
+    width: 100vh;
+    height: 40vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    margin: 0;
+    img {
+      width: 100%;
+      height: 100%;
+    }
   }
 
   .caffeine {
     color: $beige !important;
   }
+  .product-price {
+    color: $cyan !important;
+  }
+}
+@media only screen and (max-width: 576px) {
 }

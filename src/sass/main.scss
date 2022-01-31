@@ -51,7 +51,14 @@ $h2-font-size: 3.3rem;
 footer {
   margin-top: auto;
 }
-
+@media only screen and (max-width: 576px) {
+  .navbar {
+    background-color: rgba(0, 0, 0, 0.2);
+  }
+  div {
+    color: $beige !important;
+  }
+}
 @media only screen and (max-width: 576px) {
   .mx-5 {
     margin-left: 2rem !important;

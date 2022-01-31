@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/beans-n-cream/static/css/main.6aaa5c9d.chunk.css",
-    "main.js": "/beans-n-cream/static/js/main.01659cb7.chunk.js",
-    "main.js.map": "/beans-n-cream/static/js/main.01659cb7.chunk.js.map",
+    "main.css": "/beans-n-cream/static/css/main.c4fc0df2.chunk.css",
+    "main.js": "/beans-n-cream/static/js/main.d96db763.chunk.js",
+    "main.js.map": "/beans-n-cream/static/js/main.d96db763.chunk.js.map",
     "runtime-main.js": "/beans-n-cream/static/js/runtime-main.f2a1546c.js",
     "runtime-main.js.map": "/beans-n-cream/static/js/runtime-main.f2a1546c.js.map",
     "static/js/2.0532186d.chunk.js": "/beans-n-cream/static/js/2.0532186d.chunk.js",
     "static/js/2.0532186d.chunk.js.map": "/beans-n-cream/static/js/2.0532186d.chunk.js.map",
     "index.html": "/beans-n-cream/index.html",
-    "static/css/main.6aaa5c9d.chunk.css.map": "/beans-n-cream/static/css/main.6aaa5c9d.chunk.css.map",
+    "static/css/main.c4fc0df2.chunk.css.map": "/beans-n-cream/static/css/main.c4fc0df2.chunk.css.map",
     "static/js/2.0532186d.chunk.js.LICENSE.txt": "/beans-n-cream/static/js/2.0532186d.chunk.js.LICENSE.txt",
     "static/media/about-us-1.jpg": "/beans-n-cream/static/media/about-us-1.44e2dda5.jpg",
     "static/media/choc1-l.efe0b51e.jpg": "/beans-n-cream/static/media/choc1-l.efe0b51e.jpg",
@@ -99,7 +99,7 @@
   "entrypoints": [
     "static/js/runtime-main.f2a1546c.js",
     "static/js/2.0532186d.chunk.js",
-    "static/css/main.6aaa5c9d.chunk.css",
-    "static/js/main.01659cb7.chunk.js"
+    "static/css/main.c4fc0df2.chunk.css",
+    "static/js/main.d96db763.chunk.js"
   ]
 }

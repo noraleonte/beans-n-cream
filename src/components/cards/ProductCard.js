@@ -6,7 +6,7 @@ const ProductCard = (props) => {
   const product = props.product;
   return (
     <div
-      className='card mb-3 me-1 bg-dark text-light col col-md-12 p-0'
+      className='card mb-3 me-1 bg-dark text-light col-md-12 col-lg-6 col-xl-4 p-0'
       style={{ maxWidth: 550 + 'px' }}>
       <div className='row g-0' style={{ height: 100 + '%' }}>
         <div className='col-md-5'>

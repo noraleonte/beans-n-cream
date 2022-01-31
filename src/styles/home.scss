@@ -4,7 +4,6 @@
 }
 .left {
   height: 100%;
-  width: 50%;
 }
 .left button {
   width: fit-content;
@@ -23,4 +22,27 @@
   width: 40vw;
   min-width: 200px;
   object-fit: contain;
+}
+
+@media only screen and (max-width: 768px) {
+  .yellow-square {
+    width: 100%;
+    height: calc(40vh + 80px);
+  }
+  .hero {
+    height: 40vh;
+    margin-bottom: 50px;
+    h2 {
+      color: $dark-brown !important;
+    }
+  }
+  .coffee-img {
+    display: none;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .yellow-square {
+    width: 100%;
+    height: calc(40vh + 100px);
+  }
 }

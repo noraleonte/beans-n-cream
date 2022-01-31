@@ -7,7 +7,7 @@ const Footer = () => {
       <div className='w-50'>
         <p style={{ fontFamily: 'Bungee Inline' }}>Beans 'n Cream</p>
       </div>
-      <div className='w-50 d-flex align-items-center justify-content-between '>
+      <div className='w-50 d-flex align-items-center justify-content-between flex-wrap'>
         <a href='https://www.facebook.com/' target='_blank'>
           <div className='d-flex  align-items-center text-light'>
             <FaFacebook />

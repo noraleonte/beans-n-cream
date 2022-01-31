@@ -20,7 +20,7 @@ const Home = (props) => {
     text: 'We all share the love for a good cup of coffee and a good story. At Beans n Cream you can find both. Be a part of our story. Visit us today!',
   };
   return (
-    <div className='px-5'>
+    <div className='px-5 content'>
       <Hero />
       <Products
         products={props.products}

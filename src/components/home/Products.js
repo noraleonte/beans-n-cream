@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 import '../../styles/products.scss';
 import ProductCard from '../cards/ProductCard.js';
-
+import { filterProducts } from '../../helpers/helpers';
 const Products = (props) => {
   const categories = [
     { id: 'coffee', name: 'Coffee' },
@@ -16,11 +16,8 @@ const Products = (props) => {
     setCategory(selected);
   };
 
-  const filterProducts = () => {
-    return props.products.filter((product) => product.category === category);
-  };
   useEffect(() => {
-    setProducts(filterProducts());
+    setProducts(filterProducts('category', category));
   }, [category]);
 
   return (

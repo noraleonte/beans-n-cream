@@ -37,7 +37,7 @@ const ProductCard = (props) => {
               className='btn btn-danger text-uppercase text-light rounded-pill'
               onClick={(e) => {
                 e.preventDefault();
-                props.handleAddToCart();
+                props.handleAddToCart(product);
               }}>
               add to cart
             </button>

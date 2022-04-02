@@ -1,5 +1,5 @@
-import { useState } from 'react';
-
+import { useState, useEffect } from 'react';
+import { calculateValue, filterProducts } from './helpers/helpers';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import products from './constants/products';
@@ -13,18 +13,24 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 function App() {
   const [counter, setCounter] = useState(0);
+  const [cart, setCart] = useState({ items: [], value: 0 });
   const [navText, setNavText] = useState('text-primary');
 
-  const handleAddToCart = () => {
+  const handleAddToCart = (product) => {
+    cart.items.push(product);
+    cart.value = calculateValue(cart);
+    console.log(cart);
+    setCart(cart);
     setCounter(counter + 1);
   };
   const handleChangeNavText = (textColor) => {
     setNavText(textColor);
   };
+
   return (
     <Router>
       <div className='App'>
-        <Navbar counter={counter} navText={navText} />
+        <Navbar counter={counter} navText={navText} cart={cart} />
         <div className='content'>
           <Switch>
             <Route exact path={paths.HOME}>

@@ -33,7 +33,7 @@ const ProductSection = (props) => {
           </h3>
           <button
             className='btn btn-info text-uppercase text-light rounded-pill mb-3 add-to-cart-btn'
-            onClick={() => props.handleAddToCart()}>
+            onClick={() => props.handleAddToCart(product)}>
             add to cart
           </button>
         </div>
